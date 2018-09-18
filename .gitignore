@@ -1,0 +1,8 @@
+/Dockerfiles/gs-spring-boot/gs-spring-boot-0.1.0.jar
+/Dockerfiles/tomcat-windows-base/apache-tomcat-7.0.90
+packages
+bin
+obj
+pkg
+.vs
+*.sfproj.user

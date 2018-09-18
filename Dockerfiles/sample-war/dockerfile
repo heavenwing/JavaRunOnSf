@@ -1,0 +1,9 @@
+FROM tomcat-windows-base:7.0.90
+
+COPY sample.war ./tomcat/webapps/
+
+EXPOSE 8080
+
+WORKDIR ./tomcat/bin
+
+CMD [ "catalina.bat", "run" ]
