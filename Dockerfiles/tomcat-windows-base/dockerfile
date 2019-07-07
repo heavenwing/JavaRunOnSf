@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-nanoserver-sac2016
+FROM openjdk:8-jre-windowsservercore-1809
 
 COPY apache-tomcat-7.0.90 ./tomcat/
 

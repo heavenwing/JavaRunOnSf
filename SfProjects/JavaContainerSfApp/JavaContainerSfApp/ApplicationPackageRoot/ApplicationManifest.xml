@@ -17,7 +17,8 @@
     <Policies>
       <ContainerHostPolicies CodePackageRef="Code">
         <!-- See https://aka.ms/I7z0p9 for how to encrypt your repository password -->
-        <RepositoryCredentials AccountName="" Password="" PasswordEncrypted="true" />
+        <!--If you put image in Registry , you should provide AccountName and Password here-->
+        <!--<RepositoryCredentials AccountName="" Password="" PasswordEncrypted="true" />-->
         <PortBinding ContainerPort="8080" EndpointRef="GsSpringBootTypeEndpoint" />
       </ContainerHostPolicies>
     </Policies>
@@ -28,7 +29,8 @@
     <Policies>
       <ContainerHostPolicies CodePackageRef="Code">
         <!-- See https://aka.ms/I7z0p9 for how to encrypt your repository password -->
-        <RepositoryCredentials AccountName="" Password="" PasswordEncrypted="true" />
+        <!--If you put image in Registry , you should provide AccountName and Password here-->
+        <!--<RepositoryCredentials AccountName="" Password="" PasswordEncrypted="true" />-->
         <PortBinding ContainerPort="8080" EndpointRef="SampleWarTypeEndpoint" />
       </ContainerHostPolicies>
     </Policies>
